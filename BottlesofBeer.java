@@ -19,7 +19,7 @@
 
 	  if (beer > 0) {
 	  
-	   System.out.println(beer + bottles + "bottles of beer on the wall. \n");
+	   System.out.println(beer + bottles + " of beer on the wall. \n");
 	  }
      
      else { //there are no more bottles left at all
