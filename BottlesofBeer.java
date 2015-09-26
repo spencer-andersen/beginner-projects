@@ -6,8 +6,14 @@
      	  int beer = 99;
      	  String bottles = "bottles";
 	  while(beer > 0) {
+	  
+	  if (beer == 1) { 
+	  
+	  bottles = "bottle";
+	  }
 
-	   System.out.println(beer + bottles + " of beer on the wall " + beer +  bottles + " of beer,\n");
+	   System.out.println(beer + bottles + " of beer on the wall ");
+	   System.out.println(beer +  bottles + " of beer,\n");
 	   System.out.println("Take one down, pass it around, \n");
 	   beer --;
 	 
@@ -17,12 +23,10 @@
 	   System.out.println(beer + bottles + " of beer on the wall. \n");
 	  }
         	  
-	  if (beer == 1) { 
-	  
-	  bottles = "bottle";
-	  }
+
      else { //there are no more bottles left at all
           System.out.println("No more bottles of beer on the wall, no more bottles of beer,\n");
+          System.out.println("No more bottles of beer on the wall, no more bottles of beer,")
 	  System.out.println("Go to the store and buy some more! 99 Bottles of beer on the wall!");
     }
    }
