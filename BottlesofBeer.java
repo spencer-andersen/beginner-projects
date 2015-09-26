@@ -9,8 +9,8 @@
 	
 
 	 
-	   System.out.println(beer + bottles + " of beer on the wall ");
-	   System.out.println(beer +  bottles + " of beer,\n");
+	   System.out.println(beer + " " + bottles + " of beer on the wall ");
+	   System.out.println(beer +  " " + bottles + " of beer,\n");
 	   System.out.println("Take one down, pass it around, \n");
 	   beer --;
 	   
@@ -20,7 +20,7 @@
 	  }
 	  if (beer > 0) {
 	  
-	   System.out.println(beer + bottles + " of beer on the wall. \n");
+	   System.out.println(beer + " "+ bottles + " of beer on the wall. \n");
 	  }
         	  
         	  
