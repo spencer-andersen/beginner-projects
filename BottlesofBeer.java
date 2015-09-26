@@ -26,7 +26,7 @@
 
      else { //there are no more bottles left at all
           System.out.println("No more bottles of beer on the wall, no more bottles of beer,\n");
-          System.out.println("No more bottles of beer on the wall, no more bottles of beer,")
+          System.out.println("No more bottles of beer on the wall, no more bottles of beer,");
 	  System.out.println("Go to the store and buy some more! 99 Bottles of beer on the wall!");
     }
    }
