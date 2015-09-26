@@ -4,24 +4,25 @@
 
      public static void main(String[] args) {
      	  int beer = 99;
-     	  String bottles = "bottles";
+     	  String bottles = " bottles";
 	  while(beer > 0) {
-	  
-	  if (beer == 1) { 
-	  
-	  bottles = "bottle";
-	  }
+	
 
+	 
 	   System.out.println(beer + bottles + " of beer on the wall ");
 	   System.out.println(beer +  bottles + " of beer,\n");
 	   System.out.println("Take one down, pass it around, \n");
 	   beer --;
-	 
-
+	   
+	      if (beer == 1) { 
+	  
+	  bottles = " bottle";
+	  }
 	  if (beer > 0) {
 	  
 	   System.out.println(beer + bottles + " of beer on the wall. \n");
 	  }
+        	  
         	  
 
      else { //there are no more bottles left at all
