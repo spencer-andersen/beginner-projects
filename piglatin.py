@@ -8,9 +8,8 @@ def piglatin(string):
   for word in split_string:
     if word[0] in vowels: 
      new = word + 'yay'
-    elif word[:2] in digraphs:
+    elif word[:2] in digraphs or word[:3] in trigraphs:   
        new = word[2:] + word[:2] + 'ay'
-    elif word[:3] in trigraphs:   
        new = word[3:] + word[:3] + 'ay'
     else:
        new = word[1:] + word[:1] + 'ay'
