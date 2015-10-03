@@ -1,7 +1,7 @@
 def piglatin(string):
   digraphs = ['bl','br','ch','cl','cr','dr','fl','fr','gl','gr','pl','pr','sc',
 'sh','sk','sl','sm','sn','sp','st','sw','th','tr','tw','wh','qu','wr']
-  trigraphs = ['sch', 'scr', 'str', 'sph', 'spl', 'squ', 'thr']
+  trigraphs = ['sch', 'scr', 'str', 'sph', 'spl', 'squ', 'thr', 'spr']
   vowels = ['a','e','i','o','u']
   s = []
   split_string  = string.split()
