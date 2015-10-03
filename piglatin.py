@@ -12,8 +12,6 @@ def piglatin(string):
        new = word[2:] + word[:2] + 'ay'
     elif word[3:] in trigraphs:
        new = word[3:] + word[:3] + 'ay'
-    elif punc in punctuation:
-       new = word.strip(punc) + word[1:] + word[:1] + punc
     else:
        new = word[1:] + word[:1] + 'ay'
     s.append(new)
