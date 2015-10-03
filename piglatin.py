@@ -3,7 +3,7 @@ def piglatin(string):
 'sh','sk','sl','sm','sn','sp','st','sw','th','tr','tw','wh','qu','wr']
   trigraphs = ['sch', 'scr', 'str', 'sph', 'spl', 'squ', 'thr']
   vowels = ['a','e','i','o','u']
-  s = []:
+  s = []
   split_string  = string.split()
   for word in split_string:
     if word[0] in vowels: 
@@ -12,6 +12,8 @@ def piglatin(string):
        new = word[2:] + word[:2] + 'ay'
     elif word[3:] in trigraphs:
        new = word[3:] + word[:3] + 'ay'
+    elif punc in punctuation:
+       new = word.strip(punc) + word[1:] + word[:1] + punc
     else:
        new = word[1:] + word[:1] + 'ay'
     s.append(new)
